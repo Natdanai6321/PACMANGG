@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PACMAN GG EZ : GAME</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+
+<body>
+    <!-- scrollbar -->
+    <div class="responsive-wrapper" id="main-page">
+        <!-- Menu -->
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="game.html" class="active">Game</a>
+                <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- class แถบ rainbow.gif -->
+        <div class="list-tags ">
+            <ul></ul>
+        </div>
+        <!-- ส่วนของเกม -->
+        <article>
+            <div class="under-header4 ">PACMAN</div>
+            <div class="under-header3 ">
+                <div class="grid"></div>
+                <h2>Score : <span id="score"></span></h2>
+                <h3>Control</h3>
+                <div><img src="images/switch.gif" alt="game play" class="switch"></div>
+            </div>
+        </article>
+        <div class="list-tags ">
+            <ul></ul>
+        </div>
+        <footer>PACMANGGEZ.surge.sh</footer>
+        <!-- navbar -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
+</body>
+<!-- link Javascript ของเกม -->
+<script src="script/app.js" charset="utf-8"></script>
+
+</html>

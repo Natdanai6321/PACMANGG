@@ -1,0 +1,314 @@
+/* สีพื้นหลังของ body */
+
+body {
+    background: #000000;
+    overflow: hidden;
+}
+
+
+/* header */
+
+header {
+    padding: 60px 0 85px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* scorbar */
+
+.responsive-wrapper {
+    overflow: auto;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+
+/* กล่องข้างล่าง menu */
+
+.under-header {
+    display: flex;
+    margin-bottom: 75px;
+    background-image: url(../images/eat.gif);
+    background-size: cover;
+    background-position: right;
+    flex-direction: column;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 70px 0 #e830ce;
+}
+
+.under-header2 {
+    display: flex;
+    margin-bottom: 75px;
+    flex-direction: column;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 70px 0 #e830ce;
+}
+
+.under-header3 {
+    display: grid;
+    justify-content: center;
+    background-position: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border: 4px solid blue;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 70px 0 blue;
+}
+
+.under-header4 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 70px 0 yellow;
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    font-size: 90px;
+    text-align: center;
+}
+
+
+/* สิ้นสุดกล่องข้างล่าง menu */
+
+
+/* ปุ่มลิงค์ไปหน้าเกม */
+
+.under-header>.info>.item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: linear-gradient(111.83deg, #f89108 11.65%, #02c1f6 59.1%, #f58798 91.27%, #f30204 118.62%);
+    border-radius: 8px;
+    transition: 0.3s;
+    max-width: 340px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.under-header>.info>.item:hover {
+    transform: scale(1.05);
+}
+
+.under-header>.info>.item:last-child {
+    margin-left: 14px;
+    max-width: 300px;
+    padding: 2px;
+}
+
+
+/* สิ้นสุดปุ่มลิงค์ไปหน้าเกม */
+
+
+/* ข้อความใน กล่องล่าง Menu */
+
+.under-header>.info>.item>p {
+    font-size: 30px;
+    line-height: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.under-header>h1 {
+    margin-bottom: 58px;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 200px;
+}
+
+
+/* สิ้นสุดข้อความใน กล่องล่าง Menu */
+
+
+/* ตัวตกแต่ง Rainbow.gif */
+
+.list-tags {
+    display: flex;
+    background-image: url(../images/rainbow.gif);
+    margin-top: 60px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+
+/* สิ้นสุดตัวตกแต่ง Rainbow.gif */
+
+
+/* ส่วนของกล่องในหน้าต่างๆ */
+
+.history {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.data0 {
+    padding: 35px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 187%;
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    border: 2px dashed yellow;
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 20px 0 yellow;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.history>.item>.data {
+    padding: 35px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 187%;
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+    border: 2px dashed yellow;
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 20px 0 yellow;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.history>.item>.data3 {
+    padding: 35px;
+    font-size: 20px;
+    line-height: 187%;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    border: 2px dashed purple;
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 20px 0 purple;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+
+/* สิ้นสุดส่วนของกล่องในหน้า History */
+
+
+/* style ของ scrollbar  */
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #999;
+}
+
+ ::-webkit-scrollbar-track-piece {
+    background-color: #20272e;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #313e47;
+}
+
+ ::-webkit-scrollbar-corner {
+    background-color: #313e47;
+}
+
+ ::-webkit-resizer {
+    background-color: #313e47;
+}
+
+
+/* สิ้นสุด style ของ scrollbar  */
+
+
+/* กำหนดขนาดรูปภาพ */
+
+.images-toru {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.gif-play {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+
+/* สิ้นสุดกำหนดขนาดรูปภาพ */
+
+
+/* กล่องในหน้า About และกำหนดค่าต่างๆในส่วน About */
+
+.about {
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+    font-size: 20px;
+    line-height: 187%;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 20px 0 cyan;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.proflie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0 0px 0px 0 rgba(100, 100, 100, 100), 0 0px 20px 0 cyan;
+}
+
+.about>.fontX {
+    color: orange;
+    padding-top: 20px;
+}
+
+
+/* สิ้นสุดกล่องในหน้า About และกำหนดค่าต่างๆในส่วน About */
+
+
+/* class ของตัวหนังสื่อที่จะทำให้เด่นเป็นสีเหลืองในหน้าต่างๆ */
+
+.fontY {
+    color: yellow;
+}
+
+
+/* ตัวกำหนดของ footer */
+
+footer {
+    display: grid;
+    font-size: 1em;
+    line-height: 30px;
+    background-color: #111111;
+    text-align: center;
+    color: orange;
+}

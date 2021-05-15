@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PACMAN GG EZ : ABOUT</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+
+<body>
+    <!-- scrollbar -->
+    <div class="responsive-wrapper" id="main-page">
+        <!-- Menu -->
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="game.html">Game</a>
+                <a href="about.html" class="active">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- class แถบ rainbow.gif -->
+        <div class="list-tags ">
+            <ul></ul>
+        </div>
+        <!-- ส่วนของข้อมูลส่วนตัว -->
+        <article>
+            <div class="about">
+                <p>
+                    <img src="images/proflie.jpg" alt="POO" class="proflie">
+                    <div class="fontY">Curriculum Vitae</div>
+                    <div class="fontX">Name</div>Natdanai Iamsaad
+                    <div class="fontX">ID</div>61030020
+                    <div class="fontX">Age</div>22
+                    <div class="fontX">Email</div>r2554at@gmail.com
+                    <div class="fontX">FB</div>Natdanai Iamsaad
+                </p>
+            </div>
+            <div class="list-tags ">
+                <ul></ul>
+            </div>
+        </article>
+        <footer>PACMANGGEZ.surge.sh</footer>
+        <!-- navbar -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>
